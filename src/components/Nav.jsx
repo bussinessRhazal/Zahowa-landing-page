@@ -23,7 +23,7 @@ export default function Nav() {
     <nav className={`nav ${scrolled ? 'nav--scrolled' : ''}`} aria-label="Navigation principale">
       <div className="container nav__inner">
         <a href="#" className="nav__logo" aria-label="Zahowa - Accueil" onClick={(e) => scrollToSection(e, 'top')}>
-          <img src="/images/zahowa-logo.jpg" alt="Logo Zahowa" className="nav__logo-img" />
+          <img src={`${import.meta.env.BASE_URL}images/zahowa-logo.webp`} alt="Logo Zahowa" className="nav__logo-img" />
           <span className="nav__logo-text">ZAHOWA</span>
         </a>
 
