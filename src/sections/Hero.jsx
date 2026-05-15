@@ -12,16 +12,16 @@ export default function Hero() {
             Sujet : tasse de café fumante avec épices visibles (cardamome, cannelle, badiane)
             Plan : top-down ou 3/4, lumière chaude naturelle
           */}
-          <source
-            media="(min-width: 1024px)"
-            srcSet="/Zahowa-landing-page/images/hero-coffee.webp"
-          />
-          <img
-            src="/Zahowa-landing-page/images/hero-coffee.webp"
-            alt="Tasse de café marocain épicé fumante avec épices traditionnelles"
-            loading="eager"
-            fetchpriority="high"
-          />
+<source
+  media="(min-width: 1024px)"
+  srcSet={`${import.meta.env.BASE_URL}images/hero-coffee.webp`}
+/>
+<img
+  src={`${import.meta.env.BASE_URL}images/hero-coffee.webp`}
+  alt="Tasse de café marocain épicé fumante avec épices traditionnelles"
+  loading="eager"
+  fetchpriority="high"
+/>
         </picture>
         <div className="hero__bg-overlay"></div>
       </div>
