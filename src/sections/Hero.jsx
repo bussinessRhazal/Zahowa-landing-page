@@ -14,10 +14,10 @@ export default function Hero() {
           */}
           <source
             media="(min-width: 1024px)"
-            srcSet="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=1920&q=85&fm=jpg"
+            srcSet="/Zahowa-landing-page/images/hero-coffee.webp"
           />
           <img
-            src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=1200&q=80&fm=jpg"
+            src="/Zahowa-landing-page/images/hero-coffee.webp"
             alt="Tasse de café marocain épicé fumante avec épices traditionnelles"
             loading="eager"
             fetchpriority="high"
